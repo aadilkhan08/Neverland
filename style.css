@@ -1,7 +1,8 @@
 *{
     margin: 0%;
     padding: 0%;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     cursor: none;
 }
 html,body{
@@ -46,6 +47,8 @@ canvas{
     border-radius: 50%;
     position: fixed;
     z-index: 9999999999999999;
+    -webkit-transition: ease .1s;
+    -o-transition: ease .1s;
     transition: ease .1s;
 }
 svg{
@@ -53,13 +56,20 @@ svg{
     height: 3.6vw;
     width: 3.6vw;
     left: 50%;
-    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
     top: 5%;
     z-index: 9999;
 }
 #menu{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     gap: 10px;
     height: 1.2vw;
     width: 2.5vw;
@@ -101,7 +111,9 @@ svg{
     line-height: 1.5;
     top: 65%;
     left: 82%;
-    transform: translate(-50%,-50%);  
+    -webkit-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%);  
     width: 27%;
     z-index: 9999;
 }
@@ -121,7 +133,9 @@ svg{
     font-family: b;
     left: 50%;
     top: 4%;
-    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
 }
 #awards>h3{
     position: relative;
@@ -135,8 +149,12 @@ svg{
     position: absolute;
     rotate: -90deg;
     color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     bottom: 20%;
     right: 0%;
     gap: 5px;
@@ -149,7 +167,9 @@ svg{
 #scroll-to>svg{
     left: -50%;
     top: 60%;
-    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
     position: absolute;
     rotate: 90deg;
     z-index: 99999999;
@@ -166,7 +186,9 @@ svg{
     z-index: 99999;
     width: 4%;
     left: 50%;
-    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
     top: 4.6%;
     opacity:0;
 }
@@ -193,7 +215,9 @@ svg{
     letter-spacing: -5px;
     line-height: 1;
     left: 50%;
-    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
     text-align: center;
     top: 13%;
 }
@@ -202,7 +226,9 @@ svg{
     z-index: 99999;
     top: -70%;
     left: 15%;
-    transform:translateX(-50%);
+    -webkit-transform:translateX(-50%);
+        -ms-transform:translateX(-50%);
+            transform:translateX(-50%);
     width: 80%;
 }
 #page1>h5{
@@ -255,9 +281,16 @@ svg{
 
 
 #page2{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 100vh;
     width: 100vw;
     background-color: #FFFAF0;
@@ -323,7 +356,9 @@ svg{
     left: 10%;
     /* top: 50%; */
     top: 100%;
-    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
 }
 
 #text1>h4{
@@ -407,9 +442,15 @@ svg{
     width: 100%;
 }
 .titles{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     gap: 12%;
     top: 10%;
     position: relative;
