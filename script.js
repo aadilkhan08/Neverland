@@ -309,7 +309,7 @@ canvas()
 function invokedexpressions(){
   var clutter = "";
     document.querySelector("#page>h1").textContent.split("").forEach(function(char){
-            clutter += `<span> ${char} </span>`
+            clutter += `<span> &nbsp;${char} </span>`
            
     })
     document.querySelector("#page>h1").innerHTML = clutter;
@@ -333,7 +333,7 @@ gsap.to("#page>h1>span",{
 function dom(){
   var clutter = "";
     document.querySelector("#page>h4").textContent.split("").forEach(function(char){
-            clutter += `<span> ${char} </span>`
+            clutter += `<span> &nbsp;${char}</span>`
            
     })
     document.querySelector("#page>h4").innerHTML = clutter;
@@ -476,7 +476,7 @@ gsap.to("#awards",{
 function spanster(){
   var clutter = "";
     document.querySelector("#page1>h5").textContent.split("").forEach(function(char){
-            clutter += `<span> ${char} </span>`
+            clutter += `<span> &nbsp;${char} </span>`
            
     })
     document.querySelector("#page1>h5").innerHTML = clutter;
@@ -500,7 +500,7 @@ gsap.from("#page1>h5>span",{
 function alternator(){
   var clutter = "";
     document.querySelector("#page1>h2").textContent.split("").forEach(function(char){
-            clutter += `<span> ${char} </span>`
+            clutter += `<span> &nbsp;${char} </span>`
            
     })
     document.querySelector("#page1>h2").innerHTML = clutter;
@@ -539,7 +539,7 @@ page1h5.addEventListener("mouseleave",function(){
 function spenstor(){
   var clutter = "";
     document.querySelector("#page2>h4").textContent.split("").forEach(function(char){
-            clutter += `<span> ${char} </span>`
+            clutter += `<span> &nbsp;${char} </span>`
            
     })
     document.querySelector("#page2>h4").innerHTML = clutter;
@@ -548,7 +548,7 @@ spenstor()
 function tarmocten(){
   var clutter = "";
     document.querySelector("#page2>h1").textContent.split("").forEach(function(char){
-            clutter += `<span> ${char} </span>`
+            clutter += `<span> &nbsp;${char} </span>`
            
     })
     document.querySelector("#page2>h1").innerHTML = clutter;
@@ -559,7 +559,7 @@ tarmocten()
 function pantostackle(){
   var clutter = "";
     document.querySelector("#page2>h3").textContent.split("").forEach(function(char){
-            clutter += `<span> ${char} </span>`
+            clutter += `<span> &nbsp;${char} </span>`
            
     })
     document.querySelector("#page2>h3").innerHTML = clutter;
@@ -655,8 +655,7 @@ gsap.to("#text3",{
 function masterdecoder(){
   var clutter = "";
     document.querySelector("#page4>h1").textContent.split("").forEach(function(char){
-            clutter += `<span> ${char} </span>`
-           
+            clutter += `<span> &nbsp;${char} </span>`
     })
     document.querySelector("#page4>h1").innerHTML = clutter;
 }
@@ -870,7 +869,7 @@ canvas1()
 function kasteral(){
   var clutter = "";
     document.querySelector("#page5>h1").textContent.split("").forEach(function(char){
-            clutter += `<span> ${char} </span>`
+            clutter += `<span> &nbsp;${char} </span>`
     })
     document.querySelector("#page5>h1").innerHTML = clutter;
 }

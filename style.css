@@ -88,7 +88,7 @@ svg{
     bottom: 40%;
     right: 3%;
     width: 30%;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
-    letter-spacing: -7px;
+    letter-spacing: -14px;
     z-index:99999999;
 }
 #page>h4{
@@ -207,7 +207,7 @@ svg{
 }
 #page1>h5{
     position: relative;
-    left: 25%;
+    left: 17%;
     top: 32%;
     font-size: 27px;
     color: #000;
@@ -225,8 +225,8 @@ svg{
     font-weight: 300;
     top: 20%;
     line-height: 1;
-    letter-spacing: -7px;
-    width: 78%;
+    letter-spacing: -11px;
+    width: 80%;
 }
 
 
@@ -273,7 +273,7 @@ svg{
     font-weight: 100;
     text-align: center;
     line-height: 1;
-    letter-spacing: -5px;
+    letter-spacing: -12px;
     padding-top: 7%;
     width: 90%;
 
@@ -285,7 +285,7 @@ svg{
     font-weight: 100;
     text-align: center;
     line-height: 1;
-    letter-spacing: -5px;
+    letter-spacing: -11px;
     width: 90%;
 
 }
@@ -443,11 +443,12 @@ svg{
 }
 #page4>h1{
     font-family: a;
-    font-size: 60px;
+    font-size: 70px;
     position: relative;
     top: 70%;
-    width: 24%;
-    left: 37%;
+    left: 40%;
+    width: 26%;
+    letter-spacing: -10px;
 }
 #page5{
     height: 100vh;
@@ -464,14 +465,14 @@ svg{
     max-height: 100vh;
 }
 #page5>h1{
-    width: 55%;
+    width: 47%;
     position: absolute;
     z-index: 9999;
     font-family: a;
     font-weight: 600;
     font-size: 40px;
     color:#fff;
-    letter-spacing: -3px;
+    letter-spacing: -6px;
     padding-top: 20%;
     padding-left: 5%;
 }
